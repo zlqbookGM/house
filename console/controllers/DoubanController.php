@@ -100,7 +100,7 @@ class DoubanController extends Controller
 
             preg_match('#"time">(.*?)</td>#', $item, $tmp);
             $time = $tmp[1];
-            if(strpos($time, '20')===false) $time = $year.$time; //需要补全年份
+            if(strpos($time, '20')!==0) $time = $year.$time; //需要补全年份
 
             $res[] = [
                 'title' => $title,
@@ -110,10 +110,4 @@ class DoubanController extends Controller
         }
         return $res;
     }
-
-
-
-
-
-
-    }
+}
