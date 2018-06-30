@@ -37,9 +37,10 @@ AppAsset::register($this);
     ]);
     $menuItems = [
         ['label' => 'Home', 'url' => ['/site/index']],
-        ['label' => 'url', 'url' => ['/url/index']],
-        ['label' => 'house', 'url' => ['/houseurl/index2']],
-
+		['label' => '抓豆瓣', 'items'=>[
+			['label' => '豆瓣小组', 'url' => ['/douban-group/index']],
+			['label' => '小组讨论', 'url' => ['/douban-topic/index']],
+		]],
     ];
     if (Yii::$app->user->isGuest) {
         $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
