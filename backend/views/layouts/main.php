@@ -37,8 +37,8 @@ AppAsset::register($this);
     ]);
     $menuItems = [
         ['label' => 'Home', 'url' => ['/site/index']],
-        ['label' => 'url', 'url' => ['/url/index']],
-        ['label' => 'house', 'url' => ['/houseurl/index2']],
+        ['label' => 'url', 'url' => ['/douban-topic/index']],
+        ['label' => 'house', 'url' => ['/douban-group/index']],
 
     ];
     if (Yii::$app->user->isGuest) {

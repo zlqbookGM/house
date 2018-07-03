@@ -25,7 +25,7 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            'topicId',
+//            'topicId',
             ['header'=>'title', 'content'=>function($model){
                 return mb_substr($model->title, 0, 30);
             }],

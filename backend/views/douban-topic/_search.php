@@ -2,8 +2,8 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-
 /* @var $this yii\web\View */
+/* 修改：删除<?= $form->field($model, 'topicId') ?>*/
 /* @var $model common\models\search\DoubanTopicSearch */
 /* @var $form yii\widgets\ActiveForm */
 ?>
@@ -15,7 +15,7 @@ use yii\widgets\ActiveForm;
         'method' => 'get',
     ]); ?>
 
-    <?= $form->field($model, 'topicId') ?>
+
 
     <?= $form->field($model, 'title') ?>
 

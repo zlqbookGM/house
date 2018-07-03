@@ -42,10 +42,9 @@ class DoubanTopic extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'topicId' => 'Topic ID',
-            'title' => 'Title',
-            'lastResponse' => 'Last Response',
-            'mTime' => 'M Time',
+            'title' => '内容',
+            'lastResponse' => '最近更新',
+            'mTime' => '更新时间',
         ];
     }
 }
