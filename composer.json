@@ -1,6 +1,6 @@
 {
-    "name": "yiisoft/house",
-    "description": "Yii 2 Advanced Project Template",
+    "name": "zlqbook/house",
+    "description": "house spider base Yii 2 ",
     "keywords": ["yii2", "framework", "advanced", "project template"],
     "homepage": "http://www.yiiframework.com/",
     "type": "project",
